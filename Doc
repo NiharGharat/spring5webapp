@@ -55,3 +55,11 @@ Books
     - 8080 - spring.h2.console.enabled=true in app.props
     - http://localhost:8080/h2-console
     - connection url is - jdbc:h2:mem:testdb - user sa - pwd - <blank>
+
+- MVC
+    - BookController
+        - Model from spring - u just pop it with data - repo over there - just for learning
+        - Constructor for ctrl has repo of book - SPRING IS IJECTING IT EVEN WITHOUT ANNOTATION
+
+- Templating
+    - 

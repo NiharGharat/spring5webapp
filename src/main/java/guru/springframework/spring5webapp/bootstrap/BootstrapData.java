@@ -27,6 +27,10 @@ public class BootstrapData implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Author author = new Author("Nihar", "Gharat");
         Book book = new Book("bookTitle", "adsasds");
+        System.out.println(author);
+        System.out.println(book);
+
+        System.out.println("DONEEEEE");
         author.getBooks().add(book);
         book.getAuthors().add(author);
 

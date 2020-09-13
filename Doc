@@ -62,4 +62,11 @@ Books
         - Constructor for ctrl has repo of book - SPRING IS IJECTING IT EVEN WITHOUT ANNOTATION
 
 - Templating
-    - 
+    - Thymeleaf - natural template engine
+    - xmlns:th="http://www.thymeleaf.org" - namespace - for th tag
+    - Source on html will show hard coded values, thymeleaf dynamically populated the data in th tags.
+    - Ctrl - "books/list" -> view name - list.html.
+    - for author, firstName - in view - make sure the th:$(author.firstName) is in camel.
+
+------- Pet clinic up next
+https://github.com/spring-petclinic/spring-framework-petclinic
